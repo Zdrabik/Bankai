@@ -1,52 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Design</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Home Design Co.</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        header, nav, section, footer { margin-bottom: 20px; }
+        nav ul { list-style: none; }
+        nav ul li { display: inline; margin-right: 10px; }
+        nav a { text-decoration: none; }
+        .container { width: 80%; margin: auto; }
+        .hero { text-align: center; margin-bottom: 30px; }
+        .gallery img { width: 30%; margin: 1.5%; float: left; }
+        footer { text-align: center; }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1>Home Design Co.</h1>
+        <p>Welcome to our home design services. Beautify your space with our professional touch.</p>
+    </header>
 
-  </head> 
-  <body> 
-    <div class="container">
-      <div class="header"> 
-        <h1>Your Name</h1>
-        <p>Web Developer | UCLA Extension</p> 
-      </div> <div class="content"> 
-        <section class="skills">
-          <div class="skill">
-            <h2>HTML</h2>
-            <p>Expert</p>
-          </div> 
-          <div class="skill">
-            <h2>CSS</h2>
-            <p>Expert</p> 
-          </div> 
-          <div class="skill">
-            <h2>JavaScript</h2> 
-            <p>Intermediate</p>
-          </div> 
-        </section> 
-        <section class="projects"> 
-          <div class="project">
-            <h2>Project 1</h2> 
-            <p>Description</p>
-          </div> 
-          <div class="project"> 
-            <h2>Project 2</h2>
-            <p>Description</p>
-          </div>
-          <div class="project"> 
-            <h2>Project 3</h2>
-            <p>Description</p> 
-          </div> 
-        </section> 
-      </div> 
-      <div class="footer"> 
-        <p>Email: youremail@gmail.com</p> 
+    <nav class="container">
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero container">
+        <h2>Transforming Spaces, Creating Art</h2>
+        <p>Your dream home is just a design away. Let's make it real together.</p>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of home design services including:</p>
+        <ul>
+            <li>Interior Design</li>
+            <li>Space Planning</li>
+            <li>Furniture Selection</li>
+            <li>Color Consultation</li>
+            <li>Home Staging</li>
+        </ul>
+    </section>
+
+    <section id="portfolio" class="container">
+        <h2>Portfolio</h2>
+        <!-- Gallery of past projects -->
+        <div class="gallery">
+            <img src="images/project1.jpg" alt="Project 1">
+            <img src="images/project2.jpg" alt="Project 2">
+            <img src="images/project3.jpg" alt="Project 3">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Home Design Co. has been creating beautiful and functional spaces for over 10 years. Our team of professional designers are dedicated to understanding your vision and bringing it to life.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Have a project in mind? We'd love to hear about it. Reach out to us at:</p>
+        <p>Email: contact@homedesignco.com</p>
         <p>Phone: (123) 456-7890</p>
-      </div> 
-    </div> 
-  </body> 
+        <!-- Add a contact form here if necessary -->
+    </section>
+
+    <footer class="container">
+        <p>&copy; 2023 Home Design Co. All rights reserved.</p>
+    </footer>
+</body>
 </html>
