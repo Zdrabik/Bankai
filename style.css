@@ -1,12 +1,9 @@
-
         body {
             font-family: 'Arial', sans-serif;
-            background-color: black;
+            background-color: #1a1a1a;
             color: #fff;
             margin: 0;
             padding: 0;
-            text-align: center;
-                text-color: white;
         }
 
         header, nav, section, footer {
@@ -53,19 +50,3 @@
             padding: 10px;
             background-color: #333;
         }
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 5%;
-  padding: 5px;
-}
-.content {
-  max-width: 500px;
-  margin: auto;
-}
-img{
-        wight: 200px;
-        lenght: 300px;
-}
