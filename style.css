@@ -58,10 +58,14 @@
 }
 
 .column {
-  flex: 50%;
+  flex: 5%;
   padding: 5px;
 }
 .content {
   max-width: 500px;
   margin: auto;
+}
+img{
+        wight: 200px;
+        lenght: 300px;
 }
