@@ -69,6 +69,18 @@
             width: 80%;
             box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
         }
+            .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
         </style>
 </head>
 
@@ -105,10 +117,16 @@
     <section id="projects">
         <h2>Projects</h2>
         <article class="project">
+              <div class="column">
             <img src="https://media.designcafe.com/wp-content/uploads/2023/01/31151510/contemporary-interior-design-ideas-for-your-home.jpg" alt="Project Image">
+              </div>
+            <div class="column">
              <img src="https://foyr.com/learn/wp-content/uploads/2021/10/definitive-guide-to-space-planning-in-interior-design.png" alt="Project Image">
+                   </div>
+                  <div class="column">
              <img src="https://i.ytimg.com/vi/MEEVlKC3yAI/maxresdefault.jpg" alt="Project Image">
-            <h3>Project Name</h3>
+                  </div>
+                      <h3>Project Name</h3>
             <p>Project description...</p>
     
             <!-- Repeat for each project -->
