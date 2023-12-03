@@ -61,3 +61,7 @@
   flex: 50%;
   padding: 5px;
 }
+.content {
+  max-width: 500px;
+  margin: auto;
+}
